@@ -1,0 +1,124 @@
+/* COLORS */
+* {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* PICTURES */
+/* Logos */
+.logo{
+    height: 125px;
+    width: 125px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.insta{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 25px;
+    right: 200px;
+}
+
+/* Homepage */
+.homepage {
+    height: auto;
+    width: auto;
+    background-image: url(/img/homepage_main_image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.homepage_text {
+    background-color: transparent;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    
+}
+
+.homepage_single_image {
+    border-radius: 8px;
+}
+
+.homepage_events_image {
+    border-radius: 8px;
+}
+
+.homepage_occasions_image {
+    border-radius: 8px;
+}
+
+.homepage_custom_image {
+    border-radius: 8px;
+}
+
+/* Single */
+.purple_single {
+    border-radius: 8px;
+}
+
+.pink_single {
+    border-radius: 8px;
+}
+
+.orange_single {
+    border-radius: 8px;
+}
+
+/* Events */
+.wedding {
+    border-radius: 8px;
+}
+
+.birthday {
+    border-radius: 8px;
+}
+
+.babyshower {
+    border-radius: 8px;
+}
+
+/* Occasions */
+.easter {
+    border-radius: 8px;;
+}
+
+.valentine {
+    border-radius: 8px;
+}
+
+.christmas {
+    border-radius: 8px;;
+}
+
+/* Custom */
+.custom {
+    border-radius: 8px;
+}
+
+/* LAYOUTS */
+/* Header */
+nav {
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+nav, ul, li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 100px;
+    background-color: whitesmoke;
+}
+
+nav, ul, li, a{
+    text-decoration: none;
+    color: mediumpurple;
+    font-weight: 4;
+    background-color: whitesmoke;
+}
