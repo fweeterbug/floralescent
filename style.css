@@ -61,15 +61,33 @@
 
 /* Single */
 .purple_single {
-    border-radius: 8px;
+    border-radius: 50px;
+    border-color: plum;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
 .pink_single {
-    border-radius: 8px;
+    border-radius: 50px;
+    border-color: pink;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
 .orange_single {
-    border-radius: 8px;
+    border-radius: 50px;
+    border-color: lightsalmon;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
 /* Events */
@@ -171,4 +189,52 @@ nav, ul, li, a{
     border-color: mediumseagreen;
     background-color: mediumseagreen;
     padding: 10px;
+}
+
+.productsHeader {
+    text-align: center;
+    font-size: 55px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: mediumorchid;
+}
+
+.singlesHeader {
+    text-align: center;
+    font-size: 35px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: mediumorchid;
+    background-color: mediumorchid;
+    padding: 10px;
+}
+
+.orangeHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: lightsalmon;
+    padding: 10px;
+}
+
+.pinkHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: pink;
+    padding: 10px;
+}
+
+.purpleHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: plum;
+    padding: 10px;
+}
+
+.Parent {
+    display: flex;
+    justify-content: space-around;
 }
