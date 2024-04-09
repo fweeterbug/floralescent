@@ -92,33 +92,75 @@
 
 /* Events */
 .wedding {
-    border-radius: 8px;
+    border-radius: 50px;
+    border-color: plum;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
 .birthday {
-    border-radius: 8px;
+    border-radius: 50px;
+    border-color: lightpink;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
 .babyshower {
-    border-radius: 8px;
+    border-radius: 50px;
+    border-color: lemonchiffon;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
 /* Occasions */
 .easter {
-    border-radius: 8px;;
+    border-radius: 50px;
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
-.valentine {
-    border-radius: 8px;
+.valentines {
+    border-radius: 50px;
+    border-color: darkred;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
 .christmas {
-    border-radius: 8px;;
+    border-radius: 50px;
+    border-color: palevioletred;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
 }
 
 /* Custom */
 .custom {
-    border-radius: 8px;
+    border-radius: 50px;
+    border-color: lightblue;
+    border-style: solid;
+    border-width: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 492px;
 }
 
 /* LAYOUTS */
@@ -145,6 +187,7 @@ nav, ul, li, a{
     justify-content: space-between;
 }
 
+/* About */
 .historyHeader {
     text-align: center;
     font-size: 55px;
@@ -191,14 +234,15 @@ nav, ul, li, a{
     padding: 10px;
 }
 
-.productsHeader {
+/* Products */
+.productsMainHeader {
     text-align: center;
     font-size: 55px;
     -webkit-text-stroke: 1px black;
     -webkit-text-fill-color: mediumorchid;
 }
 
-.singlesHeader {
+.productHeader {
     text-align: center;
     font-size: 35px;
     -webkit-text-stroke: 1px black;
@@ -234,7 +278,101 @@ nav, ul, li, a{
     padding: 10px;
 }
 
+.weddingHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: plum;
+    padding: 10px;
+}
+
+.babyshowerHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: lemonchiffon;
+    padding: 10px;
+}
+
+.birthdayHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: lightpink;
+    padding: 10px;
+}
+
+.valentinesHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: darkred;
+    padding: 10px;
+}
+
+.easterHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: lightblue;
+    padding: 10px;
+}
+
+.christmasHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: palevioletred;
+    padding: 10px;
+}
+
+.customHeader {
+    text-align: center;
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: lightblue;
+    padding: 10px;
+}
+
+.productDesciption {
+    text-align: center;
+}
+
 .Parent {
     display: flex;
     justify-content: space-around;
+}
+
+.Custom {
+    align-items: center;
+}
+
+/* ORDER */
+input {
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: mediumorchid;
+}
+
+.orderHeader {
+    text-align: center;
+    font-size: 35px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: mediumorchid;
+    background-color: mediumorchid;
+    padding: 10px;
+}
+
+.orderDescription {
+    text-align: center;
+    font-size: 20px;
+}
+
+.orderLabel {
+    font-size: 25px;
+    -webkit-text-stroke: .7px black;
+    -webkit-text-fill-color: mediumorchid;
 }
