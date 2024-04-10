@@ -21,24 +21,59 @@
     </nav>
     </div>
 
+    <!-- FORUM -->
     <h1 class="orderHeader">Order</h1> 
     <h3 class="orderDescription">Fill out this form to place an order</h3>
-    <div>
-        <h3 class="orderLabel"><strong>Name:</strong></h3>
-        <input type="text">
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+      
+          <label for="location">Location</label>
+          <input type="text" id="location" name="location" placeholder="Your location..">
+      
+          <label for="arrangement">Arrangement Type</label>
+          <select id="arrangement" name="arrangement">
+            <option value="orangesingleoption">Orange Single</option>
+            <option value="pinksingleoption">Pink Single</option>
+            <option value="purplesingleoption">Purple Single</option>
+            <option value="weddingoption">Wedding</option>
+            <option value="babyshoweroption">Baby Shower</option>
+            <option value="birthdayoption">Birthday</option>
+            <option value="valentinesoption">Valentines</option>
+            <option value="easteroption">Easter</option>
+            <option value="christmasoption">Christmas</option>
+            <option value="customoption">Custom</option>
+          </select>
+      
+          <label for="subject">Description of what you want</label>
+          <textarea id="subject" name="subject" placeholder="Describe what you want.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <nav>
+            <img src="/img/floralescent_logo.png" alt="logo" class="logo">
+            <ul>
+                <li>
+                    <p style="color: black;"><strong>
+                        Email: </strong><p style="color: mediumorchid;"><strong>floralescent@gmail.com</strong></p>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: black;"><strong>
+                        Phone Number: </strong><p style="color: mediumorchid;"><strong>777-238-9917</strong></p>
+                    </p>
+                </li>
+            </ul>
+            <img src="/img/insta_logo.png" alt="insta" class="insta">
+        </nav>
     </div>
-
-    <div>
-        <h3 class="orderLabel"><strong>Email:</strong></h3>
-        <input type="text">
-    </div>
-
-    <div>
-        <h3 class="orderLabel"><strong>Phone Number:</strong></h3>
-        <input type="text">
-    </div>
-
-
-    
 </body>
 </html>
